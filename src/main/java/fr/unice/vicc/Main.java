@@ -62,7 +62,7 @@ public class Main {
         PeakPowerObserver peakPowerObserver = new PeakPowerObserver(hosts);
         observers.build(hosts);
 
-        double x = CloudSim.startSimulation();
+        //double x = CloudSim.startSimulation();
 
         List<Cloudlet> newList = broker.getCloudletReceivedList();
         Log.printLine("Received " + newList.size() + " cloudlets");
