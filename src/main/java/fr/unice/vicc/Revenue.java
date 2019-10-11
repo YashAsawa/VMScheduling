@@ -168,9 +168,9 @@ public class Revenue {
 
     @Override
     public String toString() {
-        return "Incomes:    " + String.format("%.2f", clientIncomes()) + "€\n" +
-               "Penalties:  " + String.format("%.2f", penalties()) + "€\n" +
-               "Energy:     " + String.format("%.2f", energyCost()) + "€\n" +
-               "Revenue:    " + String.format("%.2f", compute()) + "€\n";
+        return "Incomes:    " + String.format("%.2f", clientIncomes()) + "Rs\n" +
+               "Penalties:  " + String.format("%.2f", penalties()) + "Rs\n" +
+               "Energy:     " + String.format("%.2f", energyCost()) + "Rs\n" +
+               "Revenue:    " + String.format("%.2f", compute()) + "Rs\n";
     }
 }
