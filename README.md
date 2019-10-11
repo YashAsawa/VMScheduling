@@ -1,15 +1,14 @@
-# Vicc project: homemade VM Schedulers
+# Virtualisation Project: Dynamic VM Schedulers
 
-This project aims at developing different Vm schedulers for a given IaaS cloud. This was done as a graduate-level project at [Univeristy of Nice](http://unice.fr/). Each scheduler has meaningful properties for either the cloud customers or the cloud provider.
+This project aims at developing different VM Schedulers for a given IaaS cloud. This was done as a undergraduate-level project at [Vellore Institute of Technology]. Each scheduler has meaningful properties for either the cloud customers or the cloud provider.
 
 The implementation was made over the IaaS cloud simulator [CloudSim](http://www.cloudbus.org/cloudsim/). The simulator replays a workload extracted from Emulab, on a datacenter having realistic characteristics. 
 
-
 ## Dev team
 
-- Rares Damaschin: damaschinrares@gmail.com
-- Mourjo Sen: sen.mourjo@etu.unice.fr
-- With help from Dr Fabien Hermenier: https://github.com/fhermeni
+- Yash Asawa: yashshrikant.asawa2017@vitstudent.ac.in
+- Sreeparna Deb: sreeparna.deb2017@vitstudent.ac.in
+- Ananya Solanki: ananya.solanki2017@vitstudent.ac.in
 
 
 Some useful resources:
